@@ -1,0 +1,242 @@
+#container {
+    width: 560px;
+    margin: 50px auto;
+    display:flex;
+    /* border: 1px solid #000 */
+}
+
+#eixo_x{
+    position: absolute;
+    align-self: flex-end;
+    height: 2px;
+    width: 500px;
+    background-color: #000000;
+    margin-bottom: 18px;
+    margin-left: 30px;
+}
+
+#parede{
+    height: 300px;
+    width: 2px;
+    margin-bottom: 18px;
+    background-color: #000000;
+    margin-left: 498px;
+}
+
+/* #eixo_y{
+    height: 300px;
+    width: 2px;
+    margin-bottom: 18px;
+    background-color: #000000;
+
+    clip-path: polygon(
+        0% 0%,
+        2% 0%,
+        0% 100%
+        2% 100%,
+    );
+} */
+
+
+#eixo_y{
+    height: 300px;
+    width: 2px;
+    margin-bottom: 18px;
+    background-color: #000000;
+    margin-left: 30px;
+}
+
+#data_1{
+    height: 174px;
+    width: 100px;
+    background-color: #0000ff;
+    /* border: 2px solid #000000; */
+    margin-bottom: 20px;
+    margin-left: 50px;
+    position: absolute;
+    align-self: flex-end;
+}
+
+#data_2{
+    height: 257px;
+    width: 100px;
+    background-color: #ff0000;
+    /* border: 2px solid #000000; */
+    margin-bottom: 20px;
+    margin-left: 200px;
+    position: absolute;
+    align-self: flex-end;
+}
+
+#data_3{
+    height: 87px;
+    width: 100px;
+    background-color: #00ff00;
+    /* border: 2px solid #000000; */
+    margin-bottom: 20px;
+    margin-left: 360px;
+    position: absolute;
+    align-self: flex-end;
+}
+
+#rotulo_1{
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 80px;
+}
+
+#rotulo_2{
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 230px;
+}
+
+#rotulo_3{
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 390px;
+}
+
+#marca1{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 48px;
+    margin-left: 30px;
+}
+
+#marca2{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 78px;
+    margin-left: 30px;
+}
+
+#marca3{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 108px;
+    margin-left: 30px;
+}
+
+#marca4{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 138px;
+    margin-left: 30px;
+}
+
+#marca5{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 168px;
+    margin-left: 30px;
+}
+
+#marca6{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 198px;
+    margin-left: 30px;
+}
+
+#marca7{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 228px;
+    margin-left: 30px;
+}
+
+#marca8{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 258px;
+    margin-left: 30px;
+}
+
+#marca9{
+    width: 500px;
+    background-color: #000000;
+    height: 2px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 288px;
+    margin-left: 30px;
+}
+
+#rot_marca_1{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+#rot_marca_2{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 70px;
+}
+
+#rot_marca_3{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 100px;
+}
+
+#rot_marca_4{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 130px;
+}
+
+#rot_marca_5{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 160px;
+}
+
+#rot_marca_6{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 190px;
+}
+
+#rot_marca_7{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 220px;
+}
+
+#rot_marca_8{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 250px;
+}
+
+#rot_marca_9{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 280px;
+}

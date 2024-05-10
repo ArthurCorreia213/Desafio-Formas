@@ -1,0 +1,44 @@
+body{
+    display: flex;
+}
+
+.conteiner{
+    margin: 200px auto ;
+    padding-left: auto;
+}
+
+.div{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+#carro{
+    background-color: #00ff00;
+    align-items: center;
+    justify-self: center;
+}
+
+h1{
+    padding-top: 5px;
+}
+
+#grafico{
+    background-color: cyan;
+    align-items: center;
+    justify-self: center;
+}
+
+#interface{
+    background-color: rgb(255, 234, 0);
+    align-items: center;
+    justify-self: center;
+    height: 85px;
+}
+
+#padrao{
+    background-color: orange;
+    align-items: center;
+    justify-self: center;
+    height: 85px;
+}

@@ -1,0 +1,203 @@
+#container {
+    width: 500px;
+    margin: 50px auto;
+    display:flex;
+    background-color: #303030;
+}
+
+#fundo{
+    background-color: #303030;
+    width: 500px;
+    height: 760px;
+    
+}
+
+#capa_musica{
+    width: 350px;
+    height: 350px;
+    background-color: #d5d5d5;
+
+    margin-left: 75px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#barra_volume{
+    background-color: #00ff00;
+    width: 10px;
+    height: 240px;
+    
+    position: absolute;
+
+    margin-top: 225px;
+    margin-left: 450px;
+}
+
+#volume_circulo{
+    height: 30px;
+    width: 30px;
+    background-color: #00ff00;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    margin-top: 215px;
+    margin-left: 440px;
+}
+
+#volume_max{
+    background-color: #8c8c8c;
+    width: 10px;
+    height: 140px;
+    
+    position: absolute;
+
+    margin-top: 85px;
+    margin-left: 450px;
+}
+
+#barra_progresso{
+    background-color: #00ff00;
+    width: 250px;
+    height: 10px;
+    
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+
+#progresso_circulo{
+    height: 30px;
+    width: 30px;
+    background-color: #00ff00;
+
+    border-radius: 50%;
+
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 190px;
+    margin-left: 285px;
+}
+
+#barra_progresso2{
+    background-color: #8c8c8c;
+    width: 150px;
+    height: 10px;
+    
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 200px;
+    margin-left: 300px;
+}
+
+#botao_pausa{
+    height: 90px;
+    width: 90px;
+    background-color: #ffffff;
+
+    border-radius: 50%;
+
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 80px;
+    margin-left: 207px;
+}
+
+#simbolo_pause1{
+    width: 10px;
+    height: 60px;
+    background-color: #000000;
+
+    position: absolute;
+    margin-top: 605px;
+    margin-left: 235px;
+}
+
+#simbolo_pause2{
+    width: 10px;
+    height: 60px;
+    background-color: #000000;
+
+    position: absolute;
+    margin-top: 605px;
+    margin-left: 258px;
+}
+
+/* #meio{
+    width: 1px;
+    height: 800px;
+    background-color: aqua;
+
+    position: absolute;
+    margin-left: 250px;
+} */
+
+#botao_proximo{
+    height: 65px;
+    width: 65px;
+    background-color: #ffffff;
+
+    border-radius: 50%;
+
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 90px;
+    margin-left: 324px;
+}
+
+#simbolo_proximo{
+    width: 300px;
+    height: 300px;
+    background-color: #000000; 
+
+    position: absolute;
+    margin-left: 344px;
+    margin-top: 511px;
+
+    clip-path: polygon(
+        0% 35%,
+        7% 42%,
+        7% 35%,
+        9% 35%,
+        9% 50%,
+        7% 50%,
+        7% 43%,
+        0% 50%
+    );
+}
+
+#simbolo_anterior{
+    width: 300px;
+    height: 300px;
+    background-color: #000000; 
+
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 511px;
+
+    clip-path: polygon(
+        11% 35%,
+        2% 42%,
+        2% 35%,
+        0% 35%,
+        0% 50%,
+        2% 50%,
+        2% 43%,
+        11% 50%
+    );
+}
+
+#botao_voltar{
+    height: 65px;
+    width: 65px;
+    background-color: #ffffff;
+
+    border-radius: 50%;
+
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 90px;
+    margin-left: 114px;
+}
